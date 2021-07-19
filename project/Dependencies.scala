@@ -25,7 +25,7 @@ object Dependencies {
   lazy val scalaTest   = "org.scalatest" %% "scalatest"    % "3.2.9"
   lazy val mockitoCore = "org.mockito"    % "mockito-core" % "3.11.2"
 
-  private val logbackVersion = "1.2.3"
+  private val logbackVersion = "1.2.4"
   lazy val logbackClass      = "ch.qos.logback" % "logback-core"    % logbackVersion
   lazy val logbackClassic    = "ch.qos.logback" % "logback-classic" % logbackVersion
   lazy val logbackRelated    = Seq(logbackClass, logbackClassic)
